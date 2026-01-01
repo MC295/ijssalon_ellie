@@ -24,8 +24,12 @@ reclame_tekst3=reclame_tekst2.upper()
 reclame_tekst4=reclame_tekst3.split(" ")
 
 #8 print opdracht uit 7 gewist
-# for loop van de tekst in reclame_tekst4 +printen
+#9 for loop van de tekst in reclame_tekst4 +printen
 
+#10 for loop van punt 9 aanpassen met een if loop en 
+# naargelang de lengte van el upper of lower case toepassen
 for el in reclame_tekst4:
-#9 iets aangepast zodat hij lower case gaat printen
-    print (el.lower())
+    if len(el)>=5:
+        print(el.upper())
+    else: 
+        print(el.lower())

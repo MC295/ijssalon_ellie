@@ -23,5 +23,7 @@ reclame_tekst3=reclame_tekst2.upper()
 #7 de tekst uit reclame_tekst3 splitsen
 reclame_tekst4=reclame_tekst3.split(" ")
 
-#7 print reclame_tekst4
-print(reclame_tekst4)
+#8 print opdracht uit 7 gewist
+# for loop van de tekst in reclame_tekst4 +printen
+for el in reclame_tekst4:
+    print (el)

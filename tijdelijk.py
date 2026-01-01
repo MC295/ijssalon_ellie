@@ -16,4 +16,8 @@ komma_index= reclame_tekst.index(",") #5. index van de komma zoeken
 nul_index= reclame_tekst.index("0",komma_index) #5. index van de eerste 0 na de komma zoeken
 reclame_tekst2=reclame_tekst[:nul_index+1] #5. deel van de string nemen tem eerste 0 na de komma
 
-print (reclame_tekst2) #print de string 
+# print opdracht uit stap 5 wissen
+reclame_tekst3=reclame_tekst2.upper()
+
+#nieuwe print voor reclame_tekst3
+print(reclame_tekst3)

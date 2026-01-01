@@ -10,5 +10,5 @@ aanbieding = prijzen["aardbei"] * 0.8
 #4. reclametekst met een formatted string
 reclame_tekst= f"Vandaag in de aanbieding: vanille-ijs, 1 liter - slechts € {aanbieding}"
 
-#print de reclametekst
-print(reclame_tekst)
+#5.1 printopdracht van punt 4 verwijderd
+

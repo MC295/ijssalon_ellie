@@ -10,5 +10,10 @@ aanbieding = prijzen["aardbei"] * 0.8
 #4. reclametekst met een formatted string
 reclame_tekst= f"Vandaag in de aanbieding: vanille-ijs, 1 liter - slechts € {aanbieding}"
 
-#5.1 printopdracht van punt 4 verwijderd
+#5 printopdracht van punt 4 verwijderd
 
+komma_index= reclame_tekst.index(",") #5. index van de komma zoeken
+nul_index= reclame_tekst.index("0",komma_index) #5. index van de eerste 0 na de komma zoeken
+reclame_tekst2=reclame_tekst[:nul_index+1] #5. deel van de string nemen tem eerste 0 na de komma
+
+print (reclame_tekst2) #print de string 

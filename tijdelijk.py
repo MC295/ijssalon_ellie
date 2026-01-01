@@ -25,5 +25,7 @@ reclame_tekst4=reclame_tekst3.split(" ")
 
 #8 print opdracht uit 7 gewist
 # for loop van de tekst in reclame_tekst4 +printen
+
 for el in reclame_tekst4:
-    print (el)
+#9 iets aangepast zodat hij lower case gaat printen
+    print (el.lower())

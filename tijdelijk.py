@@ -11,13 +11,17 @@ aanbieding = prijzen["aardbei"] * 0.8
 reclame_tekst= f"Vandaag in de aanbieding: vanille-ijs, 1 liter - slechts € {aanbieding}"
 
 #5 printopdracht van punt 4 verwijderd
-
 komma_index= reclame_tekst.index(",") #5. index van de komma zoeken
 nul_index= reclame_tekst.index("0",komma_index) #5. index van de eerste 0 na de komma zoeken
 reclame_tekst2=reclame_tekst[:nul_index+1] #5. deel van de string nemen tem eerste 0 na de komma
 
-# print opdracht uit stap 5 wissen
+#print uit stap 5 gewist
+# 6 zet de  tekst uit reclame_tekst 2 om in hoofdletters
 reclame_tekst3=reclame_tekst2.upper()
 
-#nieuwe print voor reclame_tekst3
-print(reclame_tekst3)
+#7 print uit stap 6 wissen
+#7 de tekst uit reclame_tekst3 splitsen
+reclame_tekst4=reclame_tekst3.split(" ")
+
+#7 print reclame_tekst4
+print(reclame_tekst4)

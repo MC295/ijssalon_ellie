@@ -4,4 +4,5 @@ def aanbieding_1(smaak, prijs, korting):
     string_prijs_na_korting = f"{prijs_na_korting:.2f}"
     return (f"Vandaag in de aanbieding: emmertje ijs (1 liter) in de smaak {smaak}, van {string_prijs} euro voor {string_prijs_na_korting} euro.")
 
-
+def inkomsten_totaal(inkomsten):
+    return sum(inkomsten)

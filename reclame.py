@@ -4,5 +4,7 @@ def aanbieding_1(smaak, prijs, korting):
     string_prijs_na_korting = f"{prijs_na_korting:.2f}"
     return (f"Vandaag in de aanbieding: emmertje ijs (1 liter) in de smaak {smaak}, van {string_prijs} euro voor {string_prijs_na_korting} euro.")
 
-def inkomsten_totaal(inkomsten):
-    return sum(inkomsten)
+def inkomsten_totaal(inkomsten, btw):
+    totaal= sum(inkomsten)
+    btw_bedrag=totaal*btw
+    return (f"Het totaal van alle inkomsten van deze week is {totaal:.2f} euro, waarover {btw_bedrag:.2f} euro btw betaald dient te worden.")

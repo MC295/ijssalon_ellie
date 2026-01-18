@@ -8,5 +8,3 @@ def inkomsten_totaal(inkomsten, btw):
     totaal= sum(inkomsten)
     btw_bedrag=totaal*btw
     return (f"Het totaal van alle inkomsten van deze week is {totaal:.2f} euro, waarover {btw_bedrag:.2f} euro btw betaald dient te worden.")
-#test 
-print(inkomsten_totaal([220, 430, 125, 160, 205, 90, 345], 0.09))

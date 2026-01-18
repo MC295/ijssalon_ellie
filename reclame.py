@@ -6,3 +6,5 @@ def aanbieding_1(smaak, prijs, korting):
 
 def inkomsten_totaal(inkomsten):
     return sum(inkomsten)
+#test of de functie inkomsten_totaal werkt 
+print(inkomsten_totaal([220, 430, 125, 160, 205, 90, 345]))

@@ -8,3 +8,8 @@ def inkomsten_totaal(inkomsten, btw):
     totaal= sum(inkomsten)
     btw_bedrag=totaal*btw
     return (f"Het totaal van alle inkomsten van deze week is {totaal:.2f} euro, waarover {btw_bedrag:.2f} euro btw betaald dient te worden.")
+
+def laag_en_hoog(mijn_lijst):
+    laagste = min(mijn_lijst)
+    hoogste = max(mijn_lijst)
+    return [laagste, hoogste]

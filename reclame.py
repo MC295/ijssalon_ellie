@@ -16,4 +16,4 @@ def laag_en_hoog(mijn_lijst):
 
 def gemiddelde(mijn_lijst):
     gem = sum(mijn_lijst) / len(mijn_lijst)
-    return gem
+    return f"De gemiddelde inkomsten deze week zijn {gem:.2f} euro."

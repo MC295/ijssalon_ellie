@@ -13,3 +13,7 @@ def laag_en_hoog(mijn_lijst):
     laagste = min(mijn_lijst)
     hoogste = max(mijn_lijst)
     return [laagste, hoogste]
+
+def gemiddelde(mijn_lijst):
+    gem = sum(mijn_lijst) / len(mijn_lijst)
+    return gem

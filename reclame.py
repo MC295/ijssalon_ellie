@@ -1,3 +1,5 @@
+from algemene_functies import mijn_functie_2
+
 def aanbieding_1(smaak, prijs, korting):
     prijs_na_korting= prijs-(prijs*korting)
     string_prijs = f"{prijs:.2f}"
@@ -12,4 +14,18 @@ def inkomsten_totaal(inkomsten, btw):
 def laag_en_hoog(mijn_lijst):
     laagste = min(mijn_lijst)
     hoogste = max(mijn_lijst)
-    return [laagste, hoogste]
+    return [hoogste, laagste]
+
+def gemiddelde(mijn_lijst):
+    gem = sum(mijn_lijst) / len(mijn_lijst)
+    return f"De gemiddelde inkomsten deze week zijn {gem:.2f} euro."
+
+def meervoudig(invoer_lijst):
+    resultaat = laag_en_hoog(invoer_lijst)
+    return resultaat
+
+def combinatie(invoer_lijst_2):
+    korte_lijst = laag_en_hoog(invoer_lijst_2)
+    resultaat = mijn_functie_2(korte_lijst[0], korte_lijst[1])
+    return resultaat
+

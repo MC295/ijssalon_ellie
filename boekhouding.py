@@ -9,3 +9,5 @@ inkomsten ={
 }
 
 totaal_inkomsten= som(inkomsten)
+
+presenteer (inkomsten, totaal_inkomsten)

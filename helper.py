@@ -17,4 +17,8 @@ def onderstreep(tekst=""):
     uit.append("=" * len(tekst))
     return uit
 
-
+def som(inkomsten):
+    totaal=0
+    for waarde in inkomsten.values():
+        totaal += waarde
+    return totaal

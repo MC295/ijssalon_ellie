@@ -1,4 +1,5 @@
 from helper import decoreer, fooi_pp, onderstreep,som
+from presentatie import presenteer
 
 inkomsten ={
     "Aardbeien-ijs-totaal":1000,

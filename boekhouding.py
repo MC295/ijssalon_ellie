@@ -1,6 +1,8 @@
 from helper import decoreer, fooi_pp, onderstreep,som
 from presentatie import presenteer
 
+import csv
+
 inkomsten ={
     "Aardbeien-ijs-totaal":1000,
     "Vanille-ijs-totaal": 2000,
